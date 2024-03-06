@@ -1,0 +1,6 @@
+github.com/engineone/types v0.0.0-20240306103055-66e88d77add8 h1:8ZUcqTnO71eMNuwVy+GhAf5ltUZZXgjy1M8qeVKPP7c=
+github.com/engineone/types v0.0.0-20240306103055-66e88d77add8/go.mod h1:m93iDbLOnQxy9yBQQQJ/gTp+DHWMHJCnPsJ33RUbShw=
+github.com/engineone/types v0.0.0-20240306103447-b6bbecea23e1 h1:lw4BV6Ia0c7/kg+97QNk42om94gKgWC291/Lj4aBSMM=
+github.com/engineone/types v0.0.0-20240306103447-b6bbecea23e1/go.mod h1:CE2d4XrctoMENyHiMIyk638Fp8CCPRKLZfGfUtyjGmQ=
+github.com/palantir/stacktrace v0.0.0-20161112013806-78658fd2d177 h1:nRlQD0u1871kaznCnn1EvYiMbum36v7hw1DLPEjds4o=
+github.com/palantir/stacktrace v0.0.0-20161112013806-78658fd2d177/go.mod h1:ao5zGxj8Z4x60IOVYZUbDSmt3R8Ddo080vEgPosHpak=
