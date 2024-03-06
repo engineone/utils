@@ -14,8 +14,8 @@ import (
 // If a "json" tag is found, it maps the tag value to the corresponding "validate" tag value in the result map.
 // If a field is of type struct, it recursively calls ExtractValidationRules to extract validation rules from the nested struct fields.
 // The extracted validation rules are returned as a map[string]string, where the key represents the "json" tag value and the value represents the "validate" tag value.
-func ExtractValidationRules(input interface{}) map[string]string {
-	result := make(map[string]string)
+func ExtractValidationRules(input interface{}) map[string]interface{} {
+	result := make(map[string]interface{})
 	val := reflect.ValueOf(input)
 	for i := 0; i < val.Type().NumField(); i++ {
 		field := val.Type().Field(i)
